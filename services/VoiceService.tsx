@@ -4,8 +4,9 @@ import { Alert, Platform } from "react-native";
 
 const OPENAI_API_URL = "https://api.openai.com/v1/audio/transcriptions";
 
-const OPENAI_API_KEY =
-  "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";
+const OPENAI_API_KEY = "your-openai-api-key-here";
+// const OPENAI_API_KEY =
+// "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";
 class VoiceService {
   constructor() {
     this.recording = null;
